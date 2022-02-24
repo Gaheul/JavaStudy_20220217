@@ -30,7 +30,7 @@ public class GugudanInput {
 		}
 		int i=startIndex;
 		
-		while(i<endIndex) {
+		while(i<endIndex+1) {
 			int dan=i+2;
 			System.out.println(i+"단");
 			

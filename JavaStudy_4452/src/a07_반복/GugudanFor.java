@@ -6,9 +6,9 @@ public class GugudanFor {
 		int dan =2;
 		
 		for(int i=0; i<9;i++) {
-			System.out.println(dan+"x"+(i)+"="+(dan*(i+1)));
+			System.out.println(dan+"x"+(i+1)+"="+(dan*(i+1)));
 		}
-		for(int i=0; i<9;i++) {
+		for(int i=0; i<9;) {
 			System.out.println(dan+"x"+ ++i +"="+(dan*i));
 
 	}
