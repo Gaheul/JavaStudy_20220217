@@ -8,10 +8,10 @@ public class MenuEx3 {
 		Scanner scanner = new Scanner(System.in);
 		char select = ' ';
 		boolean firstFlag = true;
-		boolean secondFlag= true;
+		
 		
 		while(firstFlag) {
-			secondFlag=true;
+			boolean secondFlag=true;
 			
 			System.out.println("[사용자 폴더]");
 			System.out.println("1. 바탕화면");
