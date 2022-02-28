@@ -14,13 +14,13 @@ public class FunctionEx {
 		System.out.println(calc(10,20,30));
 		System.out.println(calc(11,20,30));
 		
-//		int result=10+20;
-//		int result2= result*10;
-//		System.out.println(result2);
-//		
-//		result= 30+5;
-//		result2= result * 5;
-//		System.out.println(result2);
+		int result=10+20;
+		int result2= result*30;
+		System.out.println(result2);
+		
+		result= 11+20;
+		result2= result * 30;
+		System.out.println(result2);
 
 	}
 
