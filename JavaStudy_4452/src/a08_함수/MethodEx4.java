@@ -81,10 +81,11 @@ public class MethodEx4 {
 		Scanner sc=new Scanner(System.in);
 		int n =0;
 		int select =0;
-		System.out.print("별의 갯수를 입력하세요: ");
-		n = sc.nextInt();
+		
 		
 		while(true){
+		System.out.print("별의 갯수를 입력하세요: ");
+		n = sc.nextInt();
 		System.out.print("별찍기 모양선택: ");
 		select= sc.nextInt();
 

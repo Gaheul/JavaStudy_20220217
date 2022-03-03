@@ -22,7 +22,7 @@ public class AccessModifierTest {
 //		accessModifier.age =00 ;
 		
 		
-		Student student = new Student();
+		
 		
 
 	}
