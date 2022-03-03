@@ -11,7 +11,7 @@ public class Student {
 	String studentPhone;
 	boolean graduationFlag;
 	
-	public Student() {//기본생성자
+	public Student() {//기본생성자(자료형이 없음, 메소드처럼 오버로딩가능)
 		System.out.println("기본생성자 호출");
 	}
 	
