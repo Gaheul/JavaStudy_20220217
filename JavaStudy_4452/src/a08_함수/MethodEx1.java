@@ -38,9 +38,6 @@ public class MethodEx1 {
 		showName2(null);
 		int number2=outputNumber2(100);
 		System.out.println(number2);
-		int number3=outputNumber3(23);
-		System.out.println(number3);
-		
 
 	}
 
