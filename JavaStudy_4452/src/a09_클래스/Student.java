@@ -51,14 +51,13 @@ public class Student {
 	}
 	
 	public void incrementYear() {
-		if(studentYear>2 && graduationFlag == false) {
+		if(studentYear > 2 && graduationFlag == false) {
 			graduationFlag = true;
 		}else {
 			studentYear++;
 		}
-				
-		}
+			
+	}
 		
-		
-	
+			
 }
