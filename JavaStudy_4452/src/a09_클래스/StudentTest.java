@@ -32,23 +32,24 @@ package a09_클래스;
 public class StudentTest {
 
 	public static void main(String[] args) {
-		Student s1= new Student("부산고등학교",1,2,10,"김가흘","양산","010-2208-4452",false);
-//		c1.schoolName="부산고등학교";
-//		c1.studentYear=1;
-//		c1.studentGroup=2;
-//		c1.studentNumber=10;
-//		c1.studentName="김가흘";
-//		c1.studentAddress="양산";
-//		c1.studentPhone="010-2208-4452";
-//		c1.graduationFlag= false ;
+		Student c1= new Student("부산고등학교",1,2,10,"김가흘","양산","010-2208-4452",false);
+		c1.schoolName="부산고등학교";
+		c1.studentYear=1;
+		c1.studentGroup=2;
+		c1.studentNumber=10;
+		c1.studentName="김가흘";
+		c1.studentAddress="양산";
+		c1.studentPhone="010-2208-4452";
+		c1.graduationFlag= false ;
 		
-		s1.incrementYear();
-		s1.incrementYear();
-		s1.incrementYear();
-		s1.showStudentInfo();
+		c1.showStudentInfo();
+		c1.incrementYear();
+		c1.incrementYear();
+		c1.incrementYear();
 		
 		Student s2= new Student("경남고등학교","김가흘");
-		
+	
+
 	}
 
 }
