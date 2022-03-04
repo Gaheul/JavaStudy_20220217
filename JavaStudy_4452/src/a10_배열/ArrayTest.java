@@ -54,8 +54,12 @@ public class ArrayTest {
 			System.out.println(nums[i]);
 		}
 		
+		int[] numArray = {1, 5, 4, 3, 2, 6, 9};//선언과 초기화 동시에/값이 적을때(테스트할때)
+		int[] numArray2 = new int[100];
 		
-
+		for(int i=0; i<numArray.length;i++) {
+			System.out.println(numArray[i]);
+		}
 	}
 
 }
